@@ -5,5 +5,10 @@
 	<formats>
 		<format>tar.gz</format>
 	</formats>
-	<includeBaseDirectory>false</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>src/php</directory>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+	</fileSets>
 </assembly>
