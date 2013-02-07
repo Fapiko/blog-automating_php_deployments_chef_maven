@@ -21,6 +21,17 @@
 						<descriptor>src/assembly/assembly.xml</descriptor>
 					</descriptors>
 				</configuration>
+				<executions>
+					<execution>
+						<configuration>
+							<appendAssemblyId>false</appendAssemblyId>
+						</configuration>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

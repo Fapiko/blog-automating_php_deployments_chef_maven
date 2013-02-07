@@ -9,10 +9,10 @@
 		<fileSet>
 			<directory>src/php</directory>
 			<outputDirectory>/</outputDirectory>
+			<excludes>
+				<exclude>encryption_keys/</exclude>
+				<exclude>configs/database.php</exclude>
+			</excludes>
 		</fileSet>
-		<excludes>
-			<exclude>encryption_keys/</exclude>
-			<exclude>configs/database.php</exclude>
-		</excludes>
 	</fileSets>
 </assembly>
